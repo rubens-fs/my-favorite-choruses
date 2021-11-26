@@ -1,0 +1,89 @@
+body {
+    background: rgb(255, 226, 164);
+    font-family: dongle; /*A font that modify letters and hangul (the korean alphabet)*/
+    font-size: 30px;
+    max-width: 800px;
+    margin: auto; /*Margin that fits the size of the screen, and always remains aligned.*/
+}
+
+.profile_picture {
+    border: 3px solid rgb(74, 189, 255);
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#title, #subtitle, #post_title {
+    color: rgb(74, 189, 255);
+}
+
+#title {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+#subtitle {
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+#post_title {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#post_title2 {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: left;
+    color: rgb(74, 189, 255);
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid rgb(255, 145, 237);
+    margin-bottom: 15px;
+    border-radius: 1%;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.post_content2 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 100%; /*Images resize automatically.*/
+}
+
+.post_image2 {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 100%; /*Images resize automatically.*/
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.contact_list li a {
+    text-decoration: none;
+}
